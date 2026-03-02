@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About / Bio</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Hi, i am <span class="highlight">Getrude Chloe Chirwa</span>, a developer .</h1>
+                <p class="subtitle">BSc Computer Science Student | Open to career advice</p>
+                <p class="description">Welcome to my personal portfolio. I am passionate about building and finding
+                    solutions in the digital world.</p>
+                <a href="#about" class="cta-button">Learn More About Me</a>
+            </div>
+        </section>
+
+        <!-- Dark Pages Container -->
+        <div class="dark-page" style="padding-top: 1rem; padding-bottom: 3rem;">
+            <!-- ABOUT SECTION -->
+            <section id="about" class="container">
+                <section class="bio-section">
+                    <div class="bio-header"
+                        style="display: flex; gap: 2rem; align-items: center; margin-bottom: 2rem; flex-wrap: wrap;">
+                        <div class="profile-image-container"
+                            style="flex-shrink: 0; width: 150px; height: 150px; border-radius: 50%; overflow: hidden; border: 4px solid var(--primary-color); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+                            <!-- Placeholder for the user's uploaded image -->
+                            <img src="assets/profile.jpg" alt="Getrude Chloe Chirwa"
+                                style="width: 100%; height: 100%; object-fit: cover; background-color: #e2e8f0; display: block;">
+                        </div>
+                        <div class="bio-content-text">
+                            <h1 style="margin-bottom: 1rem;">About Me</h1>
+                            <p class="description" style="margin: 0; text-align: left;">
+                                I am a first year computer science student at Africa University. I am passionate about
+                                building and
+                                finding solutions in the digital world. With not much experience but eager to learn and
+                                grow
+                                with a
+                                high advantage of fast learning. I also have a keen interest in cyberguard.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h2>Technical Skills</h2>
+                    <ul style="list-style: none; display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem;">
+                        <li
+                            style="background: #e0f2fe; padding: 0.5rem 1rem; border-radius: 20px; color: #0284c7; font-weight: 600;">
+                            🌐 HTML5</li>
+                        <li
+                            style="background: #e0f2fe; padding: 0.5rem 1rem; border-radius: 20px; color: #0284c7; font-weight: 600;">
+                            🎨 CSS3</li>
+                        <li
+                            style="background: #e0f2fe; padding: 0.5rem 1rem; border-radius: 20px; color: #0284c7; font-weight: 600;">
+                            💻 C#</li>
+                        <li
+                            style="background: #e0f2fe; padding: 0.5rem 1rem; border-radius: 20px; color: #0284c7; font-weight: 600;">
+                            🐍 Python</li>
+                        <li
+                            style="background: #e0f2fe; padding: 0.5rem 1rem; border-radius: 20px; color: #0284c7; font-weight: 600;">
+                            🖌️ Design</li>
+                    </ul>
+
+                    <h2>🎓 Education</h2>
+                    <div style="margin-top: 1rem;">
+                        <h3 style="margin-bottom: 0.5rem;">BSc Computer Science</h3>
+                        <p style="color: #64748b;">Africa University | [Year - Present]</p>
+                        <p style="margin-top: 0.5rem;">Currently focusing on web development fundamentals and computer
+                            science principles.</p>
+                    </div>
+                </section>
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="container" style="padding-top: 4rem; padding-bottom: 4rem;">
+                <h1 style="text-align: center;">My Projects</h1>
+                <p class="description" style="text-align: center; margin-bottom: 3rem;">
+                    Here are some of the projects I've worked on.
+                </p>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div
+                                style="width: 100%; height: 100%; background: #e2e8f0; display: flex; align-items: center; justify-content: center; color: #94a3b8;">
+                                Project Image
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>📅 Daily Routine Schedule</h3>
+                            <p>A scheduling application currently under development to help manage daily tasks
+                                efficiently.
+                            </p>
+                            <div class="project-tags">
+                                <span>Status: Under Development</span>
+                                <span>C#</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/design_project.jpg" alt="Design Project"
+                                style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                        <div class="project-content">
+                            <h3>💰 Budget Maker</h3>
+                            <p>A financial tool to assist with creating and tracking budgets. Currently in development.
+                            </p>
+                            <div class="project-tags">
+                                <span>Status: In Development</span>
+                                <span>Python</span>
+                            </div>
+                            <a href="#" class="project-link">View Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div
+                                style="width: 100%; height: 100%; background: #e2e8f0; display: flex; align-items: center; justify-content: center; color: #94a3b8;">
+                                Project Image
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Project Three</h3>
+                            <p>A third project to showcase versatility. Maybe a design project or a mobile app.</p>
+                            <div class="project-tags">
+                                <span>Design</span>
+                                <span>UI/UX</span>
+                            </div>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p><strong>👋 Connect with me:</strong> Getrude Chloe Chirwa</p>
+            <p>📧 Email: <a href="mailto:chirwagetrudechloe@gmail.com">chirwagetrudechloe@gmail.com</a></p>
+            <p>
+                💼 <a href="https://linkedin.com/" target="_blank">LinkedIn</a> |
+                🐙 <a href="https://github.com/" target="_blank">GitHub</a>
+            </p>
+        </div>
+        <p style="margin-top: 1.5rem; font-size: 0.875rem; color: #94a3b8;">&copy; 2024 Getrude Chloe Chirwa. All rights
+            reserved.</p>
+    </footer>
+</body>
+
+</html>
